@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       .header{
+           background-color: rgba(245, 245, 245, 0.014);
+       }
+       header
+        {
+           background-color:#DCDCDC;
+            height: 75px;
+            border: 5px;
+            padding-top: 10px;
+        }
+       header div
+        {
+            display: inline-block;
+            width: 700px;
+        }
+            header nav
+        {
+            word-spacing: 50px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+        }
+        header nav a 
+        {
+            text-decoration: none;
+            color: #008B8B;
+        }
+       
+        header nav a:hover
+        {
+            color:orange;
+            background-color: Gray;
+        }
+
+        .button{
+            border-radius: 10px;
+            padding: 14px 28px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: oldlace;
+            background-color: red;
+        }
+        .button:hover
+        {
+            color: lightsteelblue;
+            background-color: rgb(157, 157, 241);
+        }
+        .grid-container {
+             display: grid;
+              grid-gap: 50px 50px;
+             grid-template-columns: auto auto auto ;
+             background-color:SlateBlue;
+             padding: 10px;
+            }
+        .grid-item {
+         background-color: rgba(255, 255, 255, 0.432);
+         border: 1px solid rgba(0, 0, 0, 0.8);
+         padding: 20px;
+         font-size: 30px;
+         text-align: center;
+         }
+         h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+          }
+       p{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        @media screen and (max-width: 992px) {
+           .grid-container{
+               background-color: deepskyblue;
+               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color:midnightblue;
+           }
+       }
+
+        @media screen and (max-width: 600px) {
+          .grid-container{
+              background-color: lightslategray;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              color:lightyellow;
+          }
+       }
+       /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+          @media screen and (max-width: 600px) {
+        nav a{
+           float: none;
+            width: 100%;
+           }
+           .footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+         }
+
+   </style>
+    <title>grid and media query</title>
+</head>
+<body> 
+    <div class="header">
+        
+           
+            <center>
+            <h1> Tourism Triangle</h1>
+        </center>
+           
+        
+       
+    </div> 
+    </div>  
+    <header>   
+        <div>
+            <center>
+                <img src=""/>
+            </center>
+        </div>
+        <div>
+            <nav >
+                <a href="uid.html">OTHERPLACES</a>
+                <a href="https://traveltriangle.com/blog/destinations/">DESTINATION</a>
+                <a href="https://traveltriangle.com/blog/season/">SEASON</a>
+                <a href="#">HOME</a>
+            </nav>
+            <br> 
+        </div>
+    </header>
+   <section>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/canoe-in-Alleppey.jpg"width="200">
+           <h3>
+             Alleppey – The Venice Of The East
+           </h3> 
+            <h5>
+                 ₹10,300 onwards
+            </h5>
+            <p>
+               lleppey, the Venice of the East, is famous for the verdant countryside, lagoons, and the waterways. It is the best place to cruise lazily around in the ever-present houseboats, sample the delicious coconut-laced seafood, and enjoy one of the cheapest solo trips in India. Alleppey happens to be one of the most beautiful destinations for low budget trips in India.<br>
+               Ideal Duration Of Stay: 2 Nights/3 Days.<br>
+               Best Time To Visit: October To February
+            </p>
+          <input type="button" value="BOOK NOW" class="button">
+        </div>
+        <div class="grid-item">
+            <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/Promenade-beach-Pondicherry.jpg " width="200">
+           
+        </span>
+            <h3>
+                Pondicherry – The French Town
+            </h3>
+            <h5>
+                From ₹8,700 onwards*
+            </h5>
+            <p>
+                Why shell out thousands when you can get a French experience through some cheap trips in India? With low budget trips in India to Pondicherry, you can get the French flair right here in India. Walk the cobblestoned streets during the day and put up your feet at the innumerable cafes on the beach in the evenings. And yes, don’t forget to try out the French food around here.
+            </p><br><br>
+            <input type="button" value="BOOK NOW" class="button">
+        </div>
+        <div class="grid-item">
+            <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/Gokarna-beach.jpg "width="200">
+            <h3>
+                Gokarna – The Less Crowded Goa
+            </h3>
+            <h5>
+                From ₹12,500 onwards*
+            </h5>
+            <p>
+                Looking for some peace and tranquility in one of the  low budget places to visit in India? Then, the Om Beach in Gokarna near Mangalore is one of the perfect 3 days trip places. You could try hiring some boats with the local fishermen to take you around the beaches in Gokarna. And if you start getting restless, there are a bunch of water activities you could go for. And what’s more? The Gokarna beaches still fall under the budget trips in India!<br>
+                Ideal Duration: 2 Nights/3 Days<br>
+				Best Time To Visit: June To August
+            </p><br><br><br><br>
+            <input type="button" value="BOOK NOW" class="button">
+        </div>  
+        <div class="grid-item">
+            <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/Darjeeling-train.jpg"width="200">
+        </span>
+            <h3>
+                Darjeeling – The Land Of Thunderbolt
+            </h3>
+            <h5>
+                ₹11,300 onwards
+            </h5>
+            <p>
+                Chugging up to Darjeeling from New Jalpaiguri or Siliguri is a once in a lifetime experience. And what makes it better is that it is still one of the best budget-friendly trips in India. Once up in the hills, just take in the salubrious air, sip the Darjeeling tea, rise early and gaze at the sunrise at Tiger hills and get ready to be mesmerized by the magnificent Kanchenjunga. And the best part is, one can plan a great start to the New Year as Darjeeling is a great escape for those who are planning for budget trips in India in January.
+                Ideal Duration: 5 Nights/6 Days
+                 Best Time To Visit: March To May and October-November
+
+            </p>
+            <input type="button" value="BOOK NOW" class="button">
+        </div>
+        <div class="grid-item">
+            <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/Naini-lake.jpg" width="200"/>
+            <h3>
+                Nainital – The City Of Lakes
+            </h3>
+            <h5>
+                From ₹12,500 onwards <br>
+                
+            </h5>
+            <p>
+             Being a hill station, Nainital is a good option for budget trips in India in December. Undoubtedly, one of the top hilly budget tourist places in India, Nainital is known for its main attraction – the Naini Lake & the beautiful hills that surround it. In addition to that, it also happens to be one of the best places to plan budget trips in India for couples. The rope-way to Snow view to get a dekko at the mighty Himalayas is a must-do here.<br>
+              Ideal Duration: 7 Nights/9 Days<br>
+              Best Time To Visit: March To June   
+            </p><br><br><br>
+            <input type="button" value="BOOK NOW" class="button">
+        </div>
+        <div class="grid-item">
+           <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/living-root-bridges.jpg "width="200"height="100px">
+           <h3>
+            Meghalaya – The Abode Of Clouds
+           </h3>
+           <h5>
+            ₹14,000 onwards
+           </h5>
+           <p>
+           This “Abode of the Clouds” is one of the most unusual states in the country. You will see “natural” living bridges made from roots of ancient trees, get pleasantly drenched in world’s wettest place, Cherrapunjee, or even get up at 4 in the morning for some sumptuous local breakfast.<br>
+           Ideal Duration: 2 Nights/3 Days<br>
+            Best Time To Visit: October To June
+			</p>
+
+           <input type="button" value="BOOK NOW" class="button">
+        </div>    
+    </div>
+   </section>
+   <div class="footer">
+    <p>CONTACT US AND SHARE YOUR EXPERIECNCE WITH US </p>
+  </div>
+</body>
+</html>
